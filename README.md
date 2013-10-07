@@ -8,7 +8,7 @@ Long and short toast duration supported.  Oh my.
 
 #### Install
 Pre-built application in ```/bin```.  Install with:
-```adb install -r /bin/NetcheckTesting-0.1-debug-unaligned.apk```
+```adb install -r /bin/Toaster-0.1-debug-unaligned.apk```
 
 #### Build
 Copy the netcheck.sh to a P4A dist then run:
