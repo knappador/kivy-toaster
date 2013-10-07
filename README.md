@@ -1,7 +1,7 @@
 kivy-toaster
 =============
 
-Android toasts.  Very simple user feedback when you do something in the background.  Toasts also stay visible if the App pauses, so if you have to pause and move to another activity, you can tell the user what's going on.
+[Android toasts.](http://developer.android.com/guide/topics/ui/notifiers/toasts.html)  Very simple user feedback when you do something in the background.  Toasts also stay visible if the App pauses, so if you have to pause and move to another activity, you can tell the user what's going on.
 
 #### Supported Option
 Long and short toast duration supported.  Oh my.
