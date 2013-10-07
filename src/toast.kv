@@ -1,0 +1,26 @@
+#: import toast toast.toast
+
+<ToastUI@BoxLayout>:
+    orientation: 'vertical'
+    TextInput:
+        id: input
+        size_hint: (1.0, 0.4)
+        text: 'Cooked some toast'
+
+    BoxLayout:
+        orientation: 'horizontal'
+        size_hint: (0.8, 0.1)
+        pos_hint: {'x' : 0.1}
+        Label:
+            text: 'Long Duration: '
+        Switch:
+            id: long_short
+            active: True
+            size_hint_x: 0.4
+    Button:
+        text: 'Toast to Yourself'
+        on_press: toast(input.text, long_short.active)
+        size_hint: (0.8, 0.14)
+        pos_hint: {'x': 0.1, 'y' : -0.1}
+    Widget:
+        size_hint: (1.0, 0.22)
